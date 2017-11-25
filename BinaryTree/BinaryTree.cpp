@@ -195,8 +195,8 @@ int main() {
 
 	tree.createTree('@');
 
-	cout << "The height is:" << tree.height() << endl;
-	cout << "The size is:" << tree.size() << endl;
+	cout << "The height:" << tree.height() << endl;
+	cout << "The size:" << tree.size() << endl;
 	tree.preOrder();
 	tree.midOrder();
 	tree.postOrder();
